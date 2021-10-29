@@ -1,6 +1,7 @@
 body {
     margin: 0px;
-    padding: 0px; 
+    padding: 0px;
+    font-family: 'Kumbh Sans';
 }
 
 .attribution { font-size: 11px; text-align: center; }
@@ -27,4 +28,23 @@ li{
 a{
     text-decoration: none;
     color: black;
+}
+
+#profil{
+    padding-left: 750px;
+    display: flex;
+}
+
+
+nav, #profil{
+    
+    display: inline-block;
+}
+
+#avatar{
+    
+}
+
+#cart{
+    margin-left: -50px;
 }

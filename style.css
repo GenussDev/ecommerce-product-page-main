@@ -30,21 +30,13 @@ a{
     color: black;
 }
 
-#profil{
+.profil{
     padding-left: 750px;
     display: flex;
 }
 
-
-nav, #profil{
-    
+nav, .profil{
+    display: flex;
     display: inline-block;
 }
 
-#avatar{
-    
-}
-
-#cart{
-    margin-left: -50px;
-}

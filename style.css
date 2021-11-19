@@ -40,3 +40,28 @@ nav, .profil{
     display: inline-block;
 }
 
+.text {
+    position: relative;
+    border: 5px solid red;
+    height: 500px;
+    width: 500px;
+    margin-left: 900px;
+    margin-bottom: 150px;
+}
+
+p { 
+    position: absolute;
+    
+}
+
+.picture {
+    position: relative;
+    border: 5px solid red;
+    height: 500px;
+    width: 500px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    margin-top: -650px;
+    
+}
+ 

@@ -11,18 +11,41 @@ header{
     display:flex;
 }
 
-ul {
-    display: flex;
-    list-style-type: none; 
+.logo{
+    margin: auto;
+    margin-left: 100px;
+    margin-right: 50px;
 }
 
 nav ul{
+    list-style-type: none;
     padding: 20px;
     margin: 20px; 
 }
 
+nav{
+    width: 700px;
+}
+
 li{
-    margin-right: 20px;
+    margin: auto;
+    display:inline-block;
+    padding-right: 40px;
+}
+
+li a:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 1px;
+	width: 0;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+}
+
+li a:hover:after {
+	width: 90%;
+	background: orange;
 }
 
 a{
@@ -31,37 +54,71 @@ a{
 }
 
 .profil{
-    padding-left: 750px;
+    margin: auto;
     display: flex;
+    align-items: center;
 }
 
-nav, .profil{
-    display: flex;
+    
+#cart, #avatar{
     display: inline-block;
+    padding-right: 30px;
 }
 
-.text {
+.section{
+    position: absolute;
+}
+
+.textbox {
     position: relative;
     border: 5px solid red;
     height: 500px;
     width: 500px;
     margin-left: 900px;
     margin-bottom: 150px;
-}
-
-p { 
-    position: absolute;
+    margin-top: 50px; 
     
 }
 
-.picture {
+.text{
+    padding-top: 30px;
+    
+}
+.picturebox {
     position: relative;
     border: 5px solid red;
     height: 500px;
-    width: 500px;
+    width: 600px;
     margin-left: 100px;
     margin-bottom: 50px;
-    margin-top: -650px;
+    margin-top: -657px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
     
 }
+
+#pic1 {
+    border-radius: 10px;
+}
+
+h1{
+    padding-bottom: 30px;
+}
  
+h2{
+    
+}
+
+.p1{
+    padding-bottom: 30px;
+}
+
+.p2{
+    padding-bottom: 50px;
+    
+}
+
+.p3{
+    padding-left: 200px;
+}

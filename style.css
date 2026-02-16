@@ -68,10 +68,9 @@ a{
 
 
 .textbox {
-    position: relative;
     border: 5px solid red;
     height: 500px;
-    width: 500px;
+    width: 600px;
     margin-left: 900px;
     margin-bottom: 150px;
     margin-top: 50px; 
@@ -82,9 +81,7 @@ a{
     padding-top: 30px;
 }
 
-.title{
-    
-}
+
 h1{
     color: orange;
     font-size: 14px;
@@ -135,21 +132,34 @@ h2{
 
 
 .picturebox {
-    position: relative;
-    border: 5px solid red;
+    border: 5px solid rgb(18, 17, 17);
     height: 500px;
     width: 600px;
     margin-left: 100px;
     margin-bottom: 50px;
     margin-top: -657px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-end;
     
 }
 
-#pic1 {
-    border-radius: 10px;
+.mainImage{
+    text-align: center;
 }
 
+.mainImage img{
+    width: 300px;
+  max-width: 100%;
+  margin-bottom: 40px;
+}
+
+.picture {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  
+}
+
+.picture img {
+
+  cursor: pointer;
+}
 

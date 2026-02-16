@@ -6,7 +6,8 @@
   <link href='https://fonts.googleapis.com/css?family=Kumbh Sans' rel='stylesheet'>
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" type="text/css" href="style.css" />
-  <meta http-equiv="refresh" content="1" >
+  <script src="script.js"></script>
+  <meta http-equiv="refresh" content="" >
   <title>Frontend Mentor | E-commerce product page</title>
 
   
@@ -60,12 +61,16 @@
   </section>
 
   <section class="picturebox">
-    <ul class="picture">
-      <li><a href="#"><img id="pic1" src="images/image-product-1-thumbnail.jpg" width="90" height="100" ></li>
-      <li><a href="#"><img id="pic1" src="images/image-product-2-thumbnail.jpg" width="90" height="100" ></li>
-      <li><a href="#"><img id="pic1" src="images/image-product-3-thumbnail.jpg" width="90" height="100" ></li>
-      <li><a href="#"><img id="pic1" src="images/image-product-4-thumbnail.jpg" width="90" height="100" ></li>
-    </ul> 
+    <div class="mainImage">
+      <img id="mainImg" src="images/image-product-1-thumbnail.jpg">
+    </div>
+      <div class="picture">
+        <img src="images/image-product-1-thumbnail.jpg" onclick="changeImage(this)" width="90" height="100" >
+        <img src="images/image-product-2-thumbnail.jpg" onclick="changeImage(this)" width="90" height="100" >
+        <img src="images/image-product-3-thumbnail.jpg" onclick="changeImage(this)" width="90" height="100" >
+        <img src="images/image-product-4-thumbnail.jpg" onclick="changeImage(this)" width="90" height="100" >
+      </div>
+    
   </section>
 
   <div class="attribution">

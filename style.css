@@ -159,7 +159,18 @@ h2{
 }
 
 .picture img {
+    cursor: pointer;
+    transition: opacity 0.3s, transform 0.2s;
+}
 
-  cursor: pointer;
+.picture img:hover {
+  transform: scale(1.05);
+}
+
+/* Miniature sélectionnée */
+.picture img.active {
+  opacity: 0.5;
+  border: 2px solid #ff7d1a;
+  border-radius: 8px;
 }
 

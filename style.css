@@ -4,6 +4,12 @@ body {
     font-family: 'Kumbh Sans';
 }
 
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
@@ -68,7 +74,6 @@ a{
 
 
 .textbox {
-    border: 5px solid red;
     height: 500px;
     width: 600px;
     margin-left: 900px;
@@ -132,7 +137,6 @@ h2{
 
 
 .picturebox {
-    border: 5px solid rgb(18, 17, 17);
     height: 500px;
     width: 600px;
     margin-left: 100px;
@@ -146,7 +150,8 @@ h2{
 }
 
 .mainImage img{
-    width: 300px;
+    border-radius: 8px;
+    width: 500px;
   max-width: 100%;
   margin-bottom: 40px;
 }
@@ -154,11 +159,14 @@ h2{
 .picture {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 40px;
   
 }
 
 .picture img {
+    width: 95px;
+    height: 100x;
+    border-radius: 8px;
     cursor: pointer;
     transition: opacity 0.3s, transform 0.2s;
 }
